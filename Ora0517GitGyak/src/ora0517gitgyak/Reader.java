@@ -11,8 +11,6 @@ import java.util.Scanner;
  */
 public class Reader {
     
-        
-    
     public static ArrayList<Person> read() throws FileNotFoundException{
         ArrayList<Person> persons = new ArrayList<>();
         Scanner sc = new Scanner(new File("us-500.csv"));
