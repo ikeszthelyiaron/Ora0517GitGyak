@@ -7,20 +7,7 @@ public class Ora0517GitGyak {
     public static void main(String[] args) {
 
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        System.out.println("elsoBranch");
         
     }
     
