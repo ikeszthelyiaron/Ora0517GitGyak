@@ -9,11 +9,10 @@ public class Ora0517GitGyak {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-//        ArrayList<Person> persons = Reader.read();
-//        for (Person person : persons) {
-//            System.out.println(person);
-//        }
-//        
+        ArrayList<Person> persons = Reader.read();
+        for (Person person : persons) {
+            System.out.println(person.getName() + " " + person.getCity() + " " + person.geteMailAddress());
+        }
 
         System.out.println("elsoBranch");
         

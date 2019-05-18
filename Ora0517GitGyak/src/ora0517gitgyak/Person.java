@@ -8,7 +8,7 @@ public class Person {
  
     private String firstName;
     private String lastName;
-    private String name = firstName + lastName;
+    private String name;
     private String city;
     private String eMailAddress;
 
@@ -17,6 +17,7 @@ public class Person {
         this.lastName = lastName;
         this.city = city;
         this.eMailAddress = eMailAddress;
+        this.name = firstName + " " + lastName;
     }
 
     
